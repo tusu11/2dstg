@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8CBE031C-9321-8D3A-4E6D-6B1E3E6CBF5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_8;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Assets\Scripts\Background.cs" />
+     <Compile Include="Assets\Assets\Scripts\Boss.cs" />
+     <Compile Include="Assets\Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Assets\Scripts\DestroyArea.cs" />
+     <Compile Include="Assets\Assets\Scripts\Emitter.cs" />
+     <Compile Include="Assets\Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Assets\Scripts\HPBar.cs" />
+     <Compile Include="Assets\Assets\Scripts\Manager.cs" />
+     <Compile Include="Assets\Assets\Scripts\OP.cs" />
+     <Compile Include="Assets\Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Assets\Scripts\Spaceship.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhAutoDespawnParticle.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhAutoScaleGUIText.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhBackground.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhDebugInfo.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhDestroyArea.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhEmitter.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhEnemy.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhExplosion.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhManager.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhPlayer.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhScore.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhSetting.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhShowcaseCtrl.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhSimpleBullet.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhSpaceship.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\UbhTitle.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Bullet\UbhBullet.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Controller\UbhShotCtrl.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhBaseShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhCircleShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHomingShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhLinearLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhLinearShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhPaintLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhPaintShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralMultiShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhCoroutine.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhObjectPool.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhSingletonMonoBehavior.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhTimer.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhMonoBehaviour.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhNonKinematic2D.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhTransformExtention.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhUtil.cs" />
+     <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\BattleSpriteAction.cs" />
+     <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\EmoteSpriteAction.cs" />
+     <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\SpriteAction.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\AudioSourceController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\BlockController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\BrokenBlockController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\CameraController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\CoinController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\Demo.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\IntroCameraController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\LoadingController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\Loop.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\PointController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\SceneNameAttribute.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\StartController.cs" />
+     <Compile Include="Assets\UnityChan2D\Demo\Scripts\TimeController.cs" />
+     <Compile Include="Assets\UnityChan2D\Scripts\UnityChan2DController.cs" />
+     <None Include="Assets\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
+     <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_0001.txt" />
+     <None Include="Assets\UniBulletHell\readme.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_0002.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{87A0DFF2-A3E3-0187-7914-747802027DFF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
